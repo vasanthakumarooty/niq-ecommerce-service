@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/shoppers_products_info?useSSL=false
+    username: root
+    password: dummy
+
+
+#JPA Settings
+  jpa.hibernate.ddl_auto: create
+
